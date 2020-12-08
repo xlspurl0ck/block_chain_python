@@ -92,7 +92,7 @@
 * Run: 
     * **``from wallet import *``** 
         * This should provide interactive functions, you should see something like this<br>
-![screenshot2](Images/one.png)
+![screenshot2](one.png)
 * Next set the account with the ``priv_key``, and use ``send_tx`` to complete a transaction
 
 **Bitcoin Testnet transaction**
