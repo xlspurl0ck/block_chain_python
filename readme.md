@@ -1,7 +1,5 @@
 # Multi-Blockchain Wallet in Python
 
-![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
-
 ## Background
 
 Your new startup is focusing on building a portfolio management system that supports not only traditional assets
@@ -49,7 +47,6 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 Your directory tree should look something like this:
 
-![directory-tree](Images/tree.png)
 
 ### Setup constants
 
@@ -85,7 +82,6 @@ Your directory tree should look something like this:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-![wallet-object](Images/wallet-object.png)
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -158,7 +154,6 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Screenshot the confirmation of the transaction like so:
 
-![btc-test](Images/btc-test.png)
 
 #### Local PoA Ethereum transaction
 
